@@ -1,0 +1,181 @@
+/* importing Big Shoulders Display for font */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+/* common  style started here  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: normal;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+  scroll-behavior: smooth;
+}
+
+/* common  style ended here*/
+
+/* navbar style started here */
+.navbar--wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  width: 1809.5px;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 50.5px;
+  margin-top: 25px;
+  position: absolute;
+  z-index: 999;
+}
+.logo--toggleBar--wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+}
+.logo--wrapper .site--logo {
+  width: 130px;
+  height: 37.731px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.toggle--bar--wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toggle--bar--slice--wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.toggle--bar--slice {
+  height: 2px;
+  width: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.toggle--bar--slice:nth-child(2) {
+  width: 15px;
+}
+.btn--user-wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 17.5px;
+}
+.nav--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #5a0dff 0%, #ff29b8 50%, #ff581c 100%);
+  color: var(--Gray-color-Gray-100, #fff);
+  font-size: 18px;
+  width: 170px;
+  height: 60px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  border-radius: 45px;
+  outline: none;
+  border: none;
+  column-gap: 9.59px;
+  cursor: pointer;
+}
+.user--wrapper {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: gray;
+  cursor: pointer;
+}
+.user--wrapper img {
+  width: 17.45px;
+  height: 21.83px;
+  object-fit: cover;
+}
+/* navbar style ended here */
+
+/* bammer style started here */
+.banner--wrapper {
+  height: auto;
+  width: 1920px;
+  display: flex;
+  flex-direction: row;
+}
+.banner-wrapper-left {
+  width: 530px;
+  height: 1071px;
+  background: linear-gradient(90deg, #080018 0%, #ff2929 50%, #ffb21c 100%);
+}
+.banner-wrapper-right {
+  width: 1390px;
+  height: 1071px;
+  background: url("./images/banner.png");
+  position: relative;
+  z-index: 1;
+}
+.banner-wrapper-right::after {
+  content: url("./images/overlay.png");
+  width: 1390px;
+  height: 1071px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+.hero--img {
+  position: absolute;
+  z-index: 555;
+  width: 667px;
+  height: 976px;
+  object-fit: cover;
+  margin-top:  95px;
+  margin-left: 141px;
+}
+/* banner style ended here */
+
+/* navbar style started here */
+/* navbar style ended here */
+
+/* navbar style started here */
+/* navbar style ended here */
+
+/* navbar style started here */
+/* navbar style ended here */
+
+/* navbar style started here */
+/* navbar style ended here */
+
+/* navbar style started here */
+/* navbar style ended here */
+
+/* navbar style started here */
+/* navbar style ended here */
