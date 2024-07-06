@@ -550,17 +550,49 @@ a {
 }
 /* show card wrapper style ended here */
 
-/* navbar style started here */
-/* navbar style ended here */
+/* release card style started here */
+.release--section--wrapper {
+  padding-top: 541px;
+  background: #101010;
+}
+.heading--nav--wrapper {
+  margin: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading--wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+.heading--wrapper {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.release--nav--wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 11.73px;
+}
+.release--nav--btn {
+  width: 54.435px;
+  height: 54.496px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.release--nav--btn:hover {
+  border: 1px solid #ff29b8;
+}
 
-/* navbar style started here */
-/* navbar style ended here */
-
-/* navbar style started here */
-/* navbar style ended here */
-
-/* navbar style started here */
-/* navbar style ended here */
-
-/* navbar style started here */
-/* navbar style ended here */
+/* release card style ended here */
