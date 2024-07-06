@@ -416,8 +416,139 @@ a {
 
 /* banner style ended here */
 
-/* navbar style started here */
-/* navbar style ended here */
+/* show card wrapper style started here */
+.show--card--wrapper {
+  height: auto;
+  width: 1920px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 60px;
+  margin-top: -40px;
+  position: absolute;
+  z-index: 1111;
+}
+.show-card {
+  width: 1800px;
+  height: 454px;
+  border-radius: 50px;
+  background: linear-gradient(95deg, #181818 7.27%, #151515 99.21%);
+}
+.single--show--card--wrapper {
+  position: absolute;
+  padding: 0 127px;
+  top: 0;
+  left: 0;
+
+  margin-top: -92px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.single--show--card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+  align-items: center;
+}
+
+.single--show--card--img-wrapper {
+  width: 364px;
+  height: 382px;
+  border-radius: 50px;
+  background: url(./images/sronle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+}
+.single--show--card:nth-child(2) .single--show--card--img-wrapper {
+  width: 364px;
+  height: 382px;
+  border-radius: 50px;
+  background: url(./images/flash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+}
+.single--show--card:nth-child(3) .single--show--card--img-wrapper {
+  width: 364px;
+  height: 382px;
+  border-radius: 50px;
+  background: url(./images/chiefly.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+}
+.single--show--card:nth-child(4) .single--show--card--img-wrapper {
+  width: 364px;
+  height: 382px;
+  border-radius: 50px;
+  background: url(./images/worldWar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+}
+.single--show--card--info--wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.single--show--card--heading {
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.sinlge--card--review--wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+.signle--card--review--star--txt {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.signle--card--review--star--txt img {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+}
+.signle--card--review--star--txt:nth-child(3) img {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+.signle--card--review--star--txt p {
+  color: #999;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+.single--show--card--sub--heading {
+  color: #999;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/* show card wrapper style ended here */
 
 /* navbar style started here */
 /* navbar style ended here */
